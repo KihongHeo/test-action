@@ -1,0 +1,9 @@
+name: Test
+description: test
+branding:
+  icon: check
+  color: green
+runs:
+  using: docker
+  image: Dockerfile
+  entrypoint: "/entrypoint.sh"
